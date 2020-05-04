@@ -1,0 +1,40 @@
+.form-row {
+  margin: 20px 0px;
+}
+
+.col {
+  width: 50%;
+  display: inline;
+}
+
+.form-control {
+  width: 40% !important;
+  margin: 10px;
+  display: inline;
+}
+
+.select.form-control {
+  width: 15% !important;
+}
+
+.select.service.form-control {
+  width: 50% !important;
+}
+
+.form {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn.btn-primary {
+  margin-left: 20px;
+}
+
+.btn.btn-outline-info {
+  margin-left: 20px;
+}
+
+.search.select.form-control {
+  width: 100% !important;
+}

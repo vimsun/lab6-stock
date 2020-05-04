@@ -1,13 +1,206 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: Candara;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+
+table {
+  margin: 20px auto 40px auto;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+  width: 75%;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+  font-family: Candara;
+}
+
+tr:hover {background-color:#f5f5f5;}
+
+h3 {
+  text-align: center;
+}
+
+
+.col-sm-3 {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.button {
+  /* margin-top: 20px; */
+  font-family: Candara !important;
+}
+
+
+
+.center {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.modal-backdrop {
+  opacity: 0.5;
+}
+
+.modal.fade.in {
+  opacity: 1;
+}
+
+.modal.fade.in .modal-dialog {
+  transform: translate(0,0);
+}
+
+.error {
+  margin-top: 40px;
+}
+
+.buttons.button.inline {
+  display: inline;
+}
+
+
+.container{
+  margin-top: 30px !important;
+  margin-bottom: 20px !important;
+
+}
+
+
+
+.card-header{
+  background: #0ec1ca;
+  border-radius: 1px;
+  height: 48px;
+}
+
+
+#stocks_list .card-content{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+#stocks_list table{
+  width: 100%;
+  margin: 0px;
+}
+
+.red{
+  color: red;
+}
+
+.green{
+  color: green;
+}
+
+.selected{
+  background: #bef4f7;
+  /* box-shadow: 1px 1px 5px #5555557d inset; */
+}
+
+.card-header-title{
+  font-family: Candara !important;
+}
+
+tbody tr, button{
+  cursor: pointer;
+}
+
+td.updated_at{
+  font-size: 12px;
+}
+
+.Login{
+  font-family: Candara !important;
+}
+
+.icon.market-trend{
+  background: #0ec1ca;
+  border-radius: 5px;
+  margin-left: 3px;
+}
+
+.unsafe_script_warning{
+  margin-bottom: 20px;
+}
+.has-background-success{
+  background: green;
+  color: white;
+}
+.modal-content{
+  background: white;
+  padding: 30px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.btn-outline-info {
+  color: #2fedf7 !important;
+  border-color: #2fedf7 !important;
+}
+
+.btn-outline-info:hover {
+  color: black !important;
+  background-color: #2fedf7 !important;
+}
+
+.btn-outline-info:active {
+  color: black !important;
+  background-color: #2fedf7 !important;
+}
+
+
+@media (min-width: 576px){
+  .modal-dialog {
+    width: 80% !important;
+  }
+}
+
+
+@media (min-width: 576px) {
+.modal-sm {
+    width: 50% !important;
+    max-width: 70% !important;
+}
+}
+
+.modal-content {
+  background: white;
+  padding: 30px;
+  border-radius: 5px;
+  font-size: initial;
+}
+
+.button.is-success {
+  float: right;
+}
+
+.navbar{
+  font-family: Candara !important;
+}
+
+.exampleEmail{
+  text-align: center !important;
+}
+
+.App{
+  text-align: center !important;
+}
+
+.col{
+  text-align: center !important;
+}
+
+.form-control{
+  margin: 0 auto !important;
 }
